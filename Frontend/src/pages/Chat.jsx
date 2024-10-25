@@ -274,7 +274,7 @@ function Chat() {
               {/* Message Input section */}
               <MessageInput newMessageText={newMessageText} setNewMessageText={setNewMessageText} />
               {/* attachment section */}
-              <sendFile onSendFile={sendFile} />
+              <SendFile onSendFile={sendFile} />
               {/* send button */}
               <SendButton/>
             </form>
